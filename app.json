@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "posepicker-native",
-    "slug": "posepicker-native",
+    "name": "포즈피커",
+    "slug": "posepicker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.seondal.posepicker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "982fc3fb-9164-4583-8979-3eb66a088961"
+      }
     }
   }
 }
