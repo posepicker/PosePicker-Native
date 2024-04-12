@@ -7,7 +7,7 @@ export default function App() {
   return (
     <WebView
       style={styles.container}
-      source={{ uri: "https://posepicker.site" }}
+      source={{ uri: "https://develop.posepicker.site" }}
     />
   );
 }
