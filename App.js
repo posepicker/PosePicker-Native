@@ -10,7 +10,6 @@ export default function App() {
       source={{ uri: "https://develop.posepicker.site" }}
       style={{
         flex: 1,
-        marginTop: Constants.statusBarHeight,
       }}
     />
   );
