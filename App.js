@@ -5,8 +5,6 @@ export default function App() {
   return (
     <WebView
       source={{ uri: "https://www.posepicker.site" }}
-      // source={{ uri: "http://192.168.0.4:3000" }}
-      // source={{ uri: "https://develop.posepicker.site" }}
       style={{
         flex: 1,
       }}
