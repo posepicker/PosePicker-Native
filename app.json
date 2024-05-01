@@ -2,7 +2,7 @@
   "expo": {
     "name": "포즈피커",
     "slug": "posepicker",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -19,8 +19,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/foreground_image.svg",
+        "backgroundColor": "./assets/background_image.svg"
       },
       "package": "com.seondal.posepicker"
     },
