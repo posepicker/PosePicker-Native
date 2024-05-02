@@ -1,7 +1,6 @@
 {
   "expo": {
     "name": "포즈피커",
-    "description": "포토부스에서 고민하는 당신을 위한 포즈추천 서비스",
     "slug": "posepicker",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,7 +8,7 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "cover",
+      "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": [
@@ -20,10 +19,9 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/foreground_image.svg",
-        "backgroundColor": "./assets/background_image.svg"
-      },
-      "package": "com.seondal.posepicker"
+        "foregroundImage": "./assets/foreground.png",
+        "backgroundImage": "./assets/background.png"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
