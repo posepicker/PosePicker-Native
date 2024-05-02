@@ -3,7 +3,6 @@
     "name": "포즈피커",
     "description": "포토부스에서 고민하는 당신을 위한 포즈추천 서비스",
     "slug": "posepicker",
-    "owner": "oz",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/foreground_image.svg",
         "backgroundColor": "./assets/background_image.svg"
-      }
+      },
+      "package": "com.seondal.posepicker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "982fc3fb-9164-4583-8979-3eb66a088961"
+      }
     }
   }
 }
