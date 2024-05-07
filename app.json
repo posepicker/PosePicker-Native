@@ -2,7 +2,7 @@
   "expo": {
     "name": "포즈피커",
     "slug": "posepicker",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -22,7 +22,8 @@
         "foregroundImage": "./assets/foreground.png",
         "backgroundImage": "./assets/background.png"
       },
-      "package": "com.seondal.posepicker"
+      "package": "com.seondal.posepicker",
+      "versionCode": 2 
     },
     "web": {
       "favicon": "./assets/favicon.png"
