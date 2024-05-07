@@ -21,7 +21,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/foreground.png",
         "backgroundImage": "./assets/background.png"
-      }
+      },
+      "package": "com.seondal.posepicker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
